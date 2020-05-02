@@ -10,11 +10,11 @@ sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager) #spo
 
 #other kpop groups
 bts = 'spotify:artist:3Nrfpe0tUJi4K4DXYWgMUX'
-
+monstax = 'spotify:artist:4TnGh5PKbSjpYqpIdlW5nz'
 redvelvet = 'spotify:artist:1z4g3DjTBBZKhvAroFlhOM'
 wannaone = 'spotify:artist:2CvaqAMMsX576VBehaJ0Wx'
 ikon = 'spotify:artist:5qRSs6mvI17zrkJpOHkCoM'
-
+nct127 = 'spotify:artist:7f4ignuCJhLXfZ9giKT7rH'
 exo = 'spotify:artist:3cjEqqelV9zb4BYE3qDQ4O'
 twice = 'spotify:artist:7n2Ycct7Beij7Dj7meI4X0'
 
@@ -31,12 +31,12 @@ rihanna = 'spotify:artist:5pKCCKE2ajJHZ9KAiaK11H'
 littlemix = 'spotify:artist:3e7awlrlDSwF3iM0WBjGMp'
 fifthharmony = 'spotify:artist:1l8Fu6IkuTP0U5QetQJ5Xt'
 
-kpop_artist_list = {'BTS': bts, 'Red Velvet': redvelvet, 'Wanna One': wannaone, 'IKON': ikon, 'EXO': exo, 'Twice': twice}
+kpop_artist_list = {'BTS': bts, 'MonstaX': monstax, 'Red Velvet': redvelvet, 'Wanna One': wannaone, 'IKON': ikon, 'NCT127': nct127, 'EXO': exo, 'Twice': twice}
 american_artist_list = {'One Direction': onedirection, 'Lady Gaga': ladygaga, 'Bruno Mars': brunomars, 'The Weeknd': theweeknd, 'Katy Perry': katyperry, 'Rihanna': rihanna, 'Little Mix': littlemix, 'Fifth Harmony': fifthharmony}
 
 for name,group in kpop_artist_list.items():
 	
-	groupalbums = sp.artist_albums(group, None, None, limit = 20, offset = 0)
+	groupalbums = sp.artist_albums(group, None, None, limit = 10, offset = 0)
 	
 	#get groups' individual albums
 	for i in range(len(groupalbums['items'])):
