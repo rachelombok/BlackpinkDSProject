@@ -34,6 +34,8 @@ bbyh = sp.track('spotify:track:3yHQKddM8SVCRnuPSo3HPN')
 whstl = sp.track('spotify:track:7HWmJ1wBecOAMNGjC6SmKE')
 pwf = sp.track('spotify:track:7e7VjLxO5xJINHvnRytrqi')
 aiiyl = sp.track('spotify:track:1Zyd6zQnC6XIIzmg3hP7Ot')
+srcndy = sp.track('spotify:track:1IWNylpZ477gIVUDpJL66u')
+hylt = sp.track('spotify:track:3vAn0qZzdyuHamcrpkfiX3')
 
 discography[kamu['name']] = kamu
 discography[stay['name']] = stay
@@ -41,6 +43,8 @@ discography[bbyh['name']] = bbyh
 discography[whstl['name']] = whstl
 discography[pwf['name']] = pwf
 discography[aiiyl['name']] = aiiyl
+discography[srcndy['name']] = srcndy
+discography[hylt['name']] = hylt
 
 
 with open('blackpink_track_data.csv', mode='w') as employee_file:
