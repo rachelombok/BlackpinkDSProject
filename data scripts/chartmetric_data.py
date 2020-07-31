@@ -1,0 +1,8 @@
+import json
+import requests
+
+
+refreshToken = 'yQNyohUtkCsLthIRsCoSxj0eYI8qQS81ORtdABH2XlGgfUyI4KRrortOUrlS8IqR'
+accessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjA0MTk0LCJ0aW1lc3RhbXAiOjE1OTYyMjYzNTMwMTIsImlhdCI6MTU5NjIyNjM1MywiZXhwIjoxNTk2MjI5OTUzfQ.9i3XbhlzpayrjoNaehog6wa6LBEE2b4fQAnLTuVgvZk'
+
+bp_artistid = '206548'
