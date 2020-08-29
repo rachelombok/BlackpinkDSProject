@@ -23,18 +23,19 @@ for i in range(len(song_titles)):
 	res.append([song_titles[i], lyrics])
 
 
-#kamu = requests.get('')
+kamu = requests.get('https://genius.com/Dua-lipa-and-blackpink-kiss-and-make-up-lyrics')
 srcndy = requests.get('https://genius.com/Genius-english-translations-lady-gaga-and-blackpink-sour-candy-english-translation-lyrics')
 icecream = requests.get('https://genius.com/Genius-english-translations-blackpink-and-selena-gomez-ice-cream-english-translation-lyrics')
-#soup_one = BeautifulSoup(r.text, 'lxml')
+soup_one = BeautifulSoup(kamu.text, 'lxml')
 soup_two = BeautifulSoup(srcndy.text, 'lxml')
 soup_three = BeautifulSoup(icecream.text, 'lxml')
-#lyrics_one = soup.find('div', class_='lyrics').get_text()
+lyrics_one = soup_one.find('div', class_='lyrics').get_text()
 lyrics_two = soup_two.find('div', class_='lyrics').get_text()
 lyrics_three = soup_three.find('div', class_='lyrics').get_text()
 
 res.append(['sour-candy', lyrics_two])
 res.append(['ice-cream', lyrics_three])
+res.append(['kiss-and-make-up', lyrics_one])
 
 index = []
 lyrics = {}
