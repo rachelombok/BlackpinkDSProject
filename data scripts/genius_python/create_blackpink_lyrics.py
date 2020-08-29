@@ -13,7 +13,7 @@ sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager) #spo
 
 kamu_uri = 'spotify:track:7jr3iPu4O4bTCVwLMbdU2i'
 
-song_titles = ['ddu-du-ddu-du', 'dont-know-what-to-do', 'kill-this-love', 'boombayah', 'whistle', 'playing-with-fire', 'stay', 'forever-young', 'see-u-later', 'really', 'kick-it', 'hope-not', 'as-if-its-your-last']
+song_titles = ['ddu-du-ddu-du', 'dont-know-what-to-do', 'kill-this-love', 'boombayah', 'whistle', 'playing-with-fire', 'stay', 'forever-young', 'see-u-later', 'really', 'kick-it', 'hope-not', 'as-if-its-your-last','how-you-like-that']
 
 res = []
 for i in range(len(song_titles)):
@@ -21,7 +21,21 @@ for i in range(len(song_titles)):
 	soup = BeautifulSoup(r.text, 'lxml')
 	lyrics = soup.find('div', class_='lyrics').get_text()
 	res.append([song_titles[i], lyrics])
-	
+
+
+#kamu = requests.get('')
+srcndy = requests.get('https://genius.com/Genius-english-translations-lady-gaga-and-blackpink-sour-candy-english-translation-lyrics')
+icecream = requests.get('https://genius.com/Genius-english-translations-blackpink-and-selena-gomez-ice-cream-english-translation-lyrics')
+#soup_one = BeautifulSoup(r.text, 'lxml')
+soup_two = BeautifulSoup(srcndy.text, 'lxml')
+soup_three = BeautifulSoup(icecream.text, 'lxml')
+#lyrics_one = soup.find('div', class_='lyrics').get_text()
+lyrics_two = soup_two.find('div', class_='lyrics').get_text()
+lyrics_three = soup_three.find('div', class_='lyrics').get_text()
+
+res.append(['sour-candy', lyrics_two])
+res.append(['ice-cream', lyrics_three])
+
 index = []
 lyrics = {}
 	
