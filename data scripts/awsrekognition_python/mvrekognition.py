@@ -154,7 +154,7 @@ class VideoDetect:
 
         jsonobj = json.dumps(jsonlst, indent=2)
         # dump the list data to a json file
-        with open("icecream.json", "w") as outfile: 
+        with open("lovesickgirls.json", "w") as outfile: 
             # create a new json file for all the labels
             outfile.write(jsonobj)
        
@@ -221,7 +221,7 @@ def main():
     # roleArn is the IAM Service role ARN from AWS
     bucket = 'blackpinkdata'
     # name of the S3 bucket where the video is
-    video = 'icecream.mp4'
+    video = 'lovesickgirls.mp4'
     # name of the video
 
     analyzer=VideoDetect(roleArn, bucket,video)
