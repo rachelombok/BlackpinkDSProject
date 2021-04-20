@@ -221,7 +221,7 @@ def main():
     # roleArn is the IAM Service role ARN from AWS
     bucket = 'blackpinkdata'
     # name of the S3 bucket where the video is
-    video = 'icecream.mp4'
+    video = 'lovesickgirls.mp4'
     # name of the video
 
     analyzer=VideoDetect(roleArn, bucket,video)

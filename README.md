@@ -5,3 +5,20 @@ Will be accompanied with various data from Spotify, YouTube, and other data visu
 
 Technologies: AWS, Python, Jupyter Notebook
 Website:
+
+Libraries still needed
+
+* [ ] pandas
+* [ ] numpy
+* [ ] seaborn
+* [ ] matplotlib
+* [ ] explainer
+
+To-Dos
+
+* [ ] trend in BP spotify music over years
+* [ ] histogram of all features of songs of BP
+* [ ] compare all kpop artists
+* [ ] compare west artists
+* [ ] similarity in lyrics
+* [ ] token keywords
