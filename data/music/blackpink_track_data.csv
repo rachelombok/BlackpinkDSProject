@@ -1,4 +1,4 @@
-Index,Artist Name,Track Name,Danceability,Energy,Key,Loudness,Speechiness,Accousticness,Instrumentalness,Liveness,Valence,Tempo,Duration MS,Release Date
+index,artist_name,track_name,danceability,energy,key,loudness,speechiness,accousticness,instrumentalness,liveness,valence,tempo,duration_ms,release_date
 1,BLACKPINK,Kill This Love,0.738,0.861,2,-4.141,0.237,0.32,0.00175,0.325,0.58,131.974,189052,2019-04-05
 2,BLACKPINK,Don't Know What To Do,0.628,0.64,6,-4.164,0.049,0.0992,0,0.138,0.409,129.815,201081,2019-04-05
 3,BLACKPINK,Kick It,0.764,0.787,1,-3.647,0.0445,0.0153,0,0.0736,0.381,124.949,191226,2019-04-05

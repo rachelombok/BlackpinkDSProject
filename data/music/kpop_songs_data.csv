@@ -1,4 +1,4 @@
-Index,Artist Name,Track Name,Danceability,Energy,Key,Loudness,Speechiness,Accousticness,Instrumentalness,Liveness,Valence,Tempo,Duration MS,Release Date
+index,artist_name,track_name,danceability,energy,key,loudness,speechiness,accousticness,instrumentalness,liveness,valence,tempo,duration_ms,release_date
 1,BTS,Intro : Persona,0.469,0.87,9,-4.475,0.342,0.0278,0,0.313,0.652,86.622,171023,2019-04-12
 2,BTS,Boy With Luv (Feat. Halsey),0.645,0.862,11,-4.757,0.0965,0.0923,0,0.192,0.798,119.991,229773,2020-02-21
 3,BTS,Make It Right,0.638,0.703,7,-7.874,0.444,0.0104,0,0.132,0.261,105.766,226321,2019-04-12
