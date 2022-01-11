@@ -28,6 +28,22 @@ with open('rawdata/chartmetricdata/bp_spotifydata_history.json') as bp_info:
                 timestamp = ftl_data_dct['timestp'][:10]
                 sp_ftl_data[timestamp] = [ftl_data_dct['value'], ftl_data_dct['diff']]
 
+#print("follow ", sp_follower_data)
+#print("listener ", sp_listener_data)
+
+count = 0
+with open('blackpink_spotifydata_combined.csv', mode='w') as newfile:
+    sp_combined_writer = csv.writer(newfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    sp_combined_writer.writerow(['date', 'followers', 'followerdifference', 'monthlylisteners', 'monthlylistenersdifference'])
+
+    for date_f, data_f in sp_follower_data.items():
+        if (date_f in sp_listener_data):
+            sp_combined_writer.writerow([date_f, data_f[0], data_f[1], sp_listener_data[date_f][0], sp_listener_data[date_f][1]])
+        else:
+            sp_combined_writer.writerow([date_f, data_f[0], data_f[1], 0, 0])
+
+
+"""
 
 with open('blackpink_spotifydata_followers_history.csv', mode='w') as emp_file:
     sp_follower_writer = csv.writer(emp_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
@@ -53,3 +69,4 @@ with open('blackpink_spotifydata_ftl_history.csv', mode='w') as e_file:
 
     for date, data in sp_ftl_data.items():
         sp_ftl_writer.writerow([date, data[0],data[1]])
+"""
