@@ -32,7 +32,7 @@ with open('rawdata/chartmetricdata/bp_spotifydata_history.json') as bp_info:
 #print("listener ", sp_listener_data)
 
 count = 0
-with open('blackpink_spotifydata_combined.csv', mode='w') as newfile:
+with open('blackpink_spotifydata_combinedtwo.csv', mode='w') as newfile:
     sp_combined_writer = csv.writer(newfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
     sp_combined_writer.writerow(['date', 'followers', 'followerdifference', 'monthlylisteners', 'monthlylistenersdifference'])
 
@@ -40,7 +40,7 @@ with open('blackpink_spotifydata_combined.csv', mode='w') as newfile:
         if (date_f in sp_listener_data):
             sp_combined_writer.writerow([date_f, data_f[0], data_f[1], sp_listener_data[date_f][0], sp_listener_data[date_f][1]])
         else:
-            sp_combined_writer.writerow([date_f, data_f[0], data_f[1], 0, 0])
+            sp_combined_writer.writerow([date_f, data_f[0], data_f[1], None, None])
 
 
 """
