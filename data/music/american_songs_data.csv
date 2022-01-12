@@ -69,8 +69,8 @@ index,artist_name,track_name,danceability,energy,key,loudness,speechiness,accous
 68,One Direction,Still The One,0.616,0.983,1,-2.287,0.0718,0.013,0,0.384,0.769,141.998,182813,2012-11-09
 69,One Direction,Truly Madly Deeply,0.671,0.389,0,-8.011,0.0314,0.543,0,0.223,0.537,113.054,180067,2013-05-22
 70,One Direction,Magic,0.644,0.852,11,-3.763,0.0427,0.0111,0,0.0749,0.862,134.024,184000,2013-05-22
-19,One Direction,Irresistible,0.536,0.488,7,-8.938,0.0244,0.0346,0,0.113,0.263,87.987,236853,2013-05-22
-19,One Direction,Live While We're Young - Dave Aude Remix,0.565,0.888,11,-4.443,0.0823,0.00934,0,0.154,0.755,127.958,195733,2013-05-22
+71,One Direction,Irresistible,0.536,0.488,7,-8.938,0.0244,0.0346,0,0.113,0.263,87.987,236853,2013-05-22
+72,One Direction,Live While We're Young - Dave Aude Remix,0.565,0.888,11,-4.443,0.0823,0.00934,0,0.154,0.755,127.958,195733,2013-05-22
 19,One Direction,Kiss You - Sharoque Remix,0.681,0.793,1,-6.248,0.0936,0.00464,0,0.361,0.566,127.975,263280,2013-05-22
 19,One Direction,What Makes You Beautiful,0.696,0.831,4,-1.395,0.0684,0.00535,0,0.0665,0.832,124.993,198840,2012-05-25
 19,One Direction,Gotta Be You,0.548,0.68,8,-2.816,0.0254,0.258,0,0.0618,0.565,85.002,244840,2012-05-25
