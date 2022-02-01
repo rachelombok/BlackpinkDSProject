@@ -1,0 +1,404 @@
+{
+    "obj": [
+        {
+            "timestp": "2022-01-26",
+            "followers": 44836675,
+            "avg_likes_per_post": 1541335,
+            "avg_comments_per_post": 8203,
+            "avg_views_per_post": 0,
+            "engagement_rate": 3.456
+        },
+        {
+            "timestp": "2022-01-25",
+            "followers": 44836675,
+            "avg_likes_per_post": 1541335,
+            "avg_comments_per_post": 8203,
+            "avg_views_per_post": 0,
+            "engagement_rate": 3.456
+        },
+        {
+            "timestp": "2022-01-24",
+            "followers": 44836675,
+            "avg_likes_per_post": 1541335,
+            "avg_comments_per_post": 8203,
+            "avg_views_per_post": 0,
+            "engagement_rate": 3.456
+        },
+        {
+            "timestp": "2022-01-23",
+            "followers": 44836675,
+            "avg_likes_per_post": 1541335,
+            "avg_comments_per_post": 8203,
+            "avg_views_per_post": 0,
+            "engagement_rate": 3.456
+        },
+        {
+            "timestp": "2022-01-22",
+            "followers": 44836675,
+            "avg_likes_per_post": 1541335,
+            "avg_comments_per_post": 8203,
+            "avg_views_per_post": 0,
+            "engagement_rate": 3.456
+        },
+        {
+            "timestp": "2022-01-21",
+            "followers": 44779396,
+            "avg_likes_per_post": 1534728,
+            "avg_comments_per_post": 8057,
+            "avg_views_per_post": 0,
+            "engagement_rate": 3.4453
+        },
+        {
+            "timestp": "2022-01-20",
+            "followers": 44779396,
+            "avg_likes_per_post": 1534728,
+            "avg_comments_per_post": 8057,
+            "avg_views_per_post": 0,
+            "engagement_rate": 3.4453
+        },
+        {
+            "timestp": "2022-01-19",
+            "followers": 44779396,
+            "avg_likes_per_post": 1534728,
+            "avg_comments_per_post": 8057,
+            "avg_views_per_post": 0,
+            "engagement_rate": 3.4453
+        },
+        {
+            "timestp": "2022-01-18",
+            "followers": 44741854,
+            "avg_likes_per_post": 1437979,
+            "avg_comments_per_post": 5771,
+            "avg_views_per_post": 0,
+            "engagement_rate": 3.2268
+        },
+        {
+            "timestp": "2022-01-17",
+            "followers": 44741854,
+            "avg_likes_per_post": 1437979,
+            "avg_comments_per_post": 5771,
+            "avg_views_per_post": 0,
+            "engagement_rate": 3.2268
+        },
+        {
+            "timestp": "2022-01-16",
+            "followers": 44706839,
+            "avg_likes_per_post": 1431117,
+            "avg_comments_per_post": 5731,
+            "avg_views_per_post": 0,
+            "engagement_rate": 3.2139
+        },
+        {
+            "timestp": "2022-01-15",
+            "followers": 44671960,
+            "avg_likes_per_post": 1428982,
+            "avg_comments_per_post": 5709,
+            "avg_views_per_post": 0,
+            "engagement_rate": 3.2116
+        },
+        {
+            "timestp": "2022-01-14",
+            "followers": 44651438,
+            "avg_likes_per_post": 1426172,
+            "avg_comments_per_post": 5696,
+            "avg_views_per_post": 0,
+            "engagement_rate": 3.2068
+        },
+        {
+            "timestp": "2022-01-13",
+            "followers": 44599388,
+            "avg_likes_per_post": 1419712,
+            "avg_comments_per_post": 6012,
+            "avg_views_per_post": 0,
+            "engagement_rate": 3.1967
+        },
+        {
+            "timestp": "2022-01-12",
+            "followers": 44599388,
+            "avg_likes_per_post": 1419712,
+            "avg_comments_per_post": 6012,
+            "avg_views_per_post": 0,
+            "engagement_rate": 3.1967
+        },
+        {
+            "timestp": "2022-01-11",
+            "followers": 44599388,
+            "avg_likes_per_post": 1419712,
+            "avg_comments_per_post": 6012,
+            "avg_views_per_post": 0,
+            "engagement_rate": 3.1967
+        },
+        {
+            "timestp": "2022-01-10",
+            "followers": 44525069,
+            "avg_likes_per_post": 1402032,
+            "avg_comments_per_post": 5746,
+            "avg_views_per_post": 0,
+            "engagement_rate": 3.1618
+        },
+        {
+            "timestp": "2022-01-09",
+            "followers": 44525069,
+            "avg_likes_per_post": 1402032,
+            "avg_comments_per_post": 5746,
+            "avg_views_per_post": 0,
+            "engagement_rate": 3.1618
+        },
+        {
+            "timestp": "2022-01-08",
+            "followers": 44525069,
+            "avg_likes_per_post": 1402032,
+            "avg_comments_per_post": 5746,
+            "avg_views_per_post": 0,
+            "engagement_rate": 3.1618
+        },
+        {
+            "timestp": "2022-01-07",
+            "followers": 44525069,
+            "avg_likes_per_post": 1402032,
+            "avg_comments_per_post": 5746,
+            "avg_views_per_post": 0,
+            "engagement_rate": 3.1618
+        },
+        {
+            "timestp": "2022-01-06",
+            "followers": 44516121,
+            "avg_likes_per_post": 1398676,
+            "avg_comments_per_post": 5731,
+            "avg_views_per_post": 0,
+            "engagement_rate": 3.1548
+        },
+        {
+            "timestp": "2022-01-05",
+            "followers": 44469996,
+            "avg_likes_per_post": 1316544,
+            "avg_comments_per_post": 3526,
+            "avg_views_per_post": 0,
+            "engagement_rate": 2.9685
+        },
+        {
+            "timestp": "2022-01-04",
+            "followers": 44469996,
+            "avg_likes_per_post": 1316544,
+            "avg_comments_per_post": 3526,
+            "avg_views_per_post": 0,
+            "engagement_rate": 2.9685
+        },
+        {
+            "timestp": "2022-01-03",
+            "followers": 44439725,
+            "avg_likes_per_post": 1312442,
+            "avg_comments_per_post": 3521,
+            "avg_views_per_post": 0,
+            "engagement_rate": 2.9612
+        },
+        {
+            "timestp": "2022-01-02",
+            "followers": 44439725,
+            "avg_likes_per_post": 1312442,
+            "avg_comments_per_post": 3521,
+            "avg_views_per_post": 0,
+            "engagement_rate": 2.9612
+        },
+        {
+            "timestp": "2022-01-01",
+            "followers": 44415675,
+            "avg_likes_per_post": 1283983,
+            "avg_comments_per_post": 3366,
+            "avg_views_per_post": 0,
+            "engagement_rate": 2.8984
+        },
+        {
+            "timestp": "2021-12-31",
+            "followers": 44349250,
+            "avg_likes_per_post": 1249822,
+            "avg_comments_per_post": 3017,
+            "avg_views_per_post": 0,
+            "engagement_rate": 2.8249
+        },
+        {
+            "timestp": "2021-12-30",
+            "followers": 44349250,
+            "avg_likes_per_post": 1249822,
+            "avg_comments_per_post": 3017,
+            "avg_views_per_post": 0,
+            "engagement_rate": 2.8249
+        },
+        {
+            "timestp": "2021-12-29",
+            "followers": 44349250,
+            "avg_likes_per_post": 1249822,
+            "avg_comments_per_post": 3017,
+            "avg_views_per_post": 0,
+            "engagement_rate": 2.8249
+        },
+        {
+            "timestp": "2021-12-28",
+            "followers": 44313540,
+            "avg_likes_per_post": 1249186,
+            "avg_comments_per_post": 3004,
+            "avg_views_per_post": 0,
+            "engagement_rate": 2.8258
+        },
+        {
+            "timestp": "2021-12-27",
+            "followers": 44313540,
+            "avg_likes_per_post": 1249186,
+            "avg_comments_per_post": 3004,
+            "avg_views_per_post": 0,
+            "engagement_rate": 2.8258
+        },
+        {
+            "timestp": "2021-12-26",
+            "followers": 44272089,
+            "avg_likes_per_post": 1267553,
+            "avg_comments_per_post": 3116,
+            "avg_views_per_post": 0,
+            "engagement_rate": 2.8701
+        },
+        {
+            "timestp": "2021-12-25",
+            "followers": 44252013,
+            "avg_likes_per_post": 1267038,
+            "avg_comments_per_post": 3108,
+            "avg_views_per_post": 0,
+            "engagement_rate": 2.8703
+        },
+        {
+            "timestp": "2021-12-24",
+            "followers": 44224435,
+            "avg_likes_per_post": 1266491,
+            "avg_comments_per_post": 3100,
+            "avg_views_per_post": 0,
+            "engagement_rate": 2.8708
+        },
+        {
+            "timestp": "2021-12-23",
+            "followers": 44197832,
+            "avg_likes_per_post": 1265463,
+            "avg_comments_per_post": 3092,
+            "avg_views_per_post": 0,
+            "engagement_rate": 2.8702
+        },
+        {
+            "timestp": "2021-12-22",
+            "followers": 44197832,
+            "avg_likes_per_post": 1265463,
+            "avg_comments_per_post": 3092,
+            "avg_views_per_post": 0,
+            "engagement_rate": 2.8702
+        },
+        {
+            "timestp": "2021-12-21",
+            "followers": 44054428,
+            "avg_likes_per_post": 1281095,
+            "avg_comments_per_post": 3122,
+            "avg_views_per_post": 0,
+            "engagement_rate": 2.9151
+        },
+        {
+            "timestp": "2021-12-20",
+            "followers": 44054428,
+            "avg_likes_per_post": 1281095,
+            "avg_comments_per_post": 3122,
+            "avg_views_per_post": 0,
+            "engagement_rate": 2.9151
+        },
+        {
+            "timestp": "2021-12-19",
+            "followers": 44054428,
+            "avg_likes_per_post": 1281095,
+            "avg_comments_per_post": 3122,
+            "avg_views_per_post": 0,
+            "engagement_rate": 2.9151
+        },
+        {
+            "timestp": "2021-12-18",
+            "followers": 44054428,
+            "avg_likes_per_post": 1281095,
+            "avg_comments_per_post": 3122,
+            "avg_views_per_post": 0,
+            "engagement_rate": 2.9151
+        },
+        {
+            "timestp": "2021-12-17",
+            "followers": 44054428,
+            "avg_likes_per_post": 1281095,
+            "avg_comments_per_post": 3122,
+            "avg_views_per_post": 0,
+            "engagement_rate": 2.9151
+        },
+        {
+            "timestp": "2021-12-16",
+            "followers": 44054428,
+            "avg_likes_per_post": 1281095,
+            "avg_comments_per_post": 3122,
+            "avg_views_per_post": 0,
+            "engagement_rate": 2.9151
+        },
+        {
+            "timestp": "2021-12-15",
+            "followers": 44001681,
+            "avg_likes_per_post": 1273229,
+            "avg_comments_per_post": 3157,
+            "avg_views_per_post": 0,
+            "engagement_rate": 2.9008
+        },
+        {
+            "timestp": "2021-12-14",
+            "followers": 44001681,
+            "avg_likes_per_post": 1273229,
+            "avg_comments_per_post": 3157,
+            "avg_views_per_post": 0,
+            "engagement_rate": 2.9008
+        },
+        {
+            "timestp": "2021-12-13",
+            "followers": 43926272,
+            "avg_likes_per_post": 1267450,
+            "avg_comments_per_post": 3214,
+            "avg_views_per_post": 0,
+            "engagement_rate": 2.8927
+        },
+        {
+            "timestp": "2021-12-12",
+            "followers": 43926272,
+            "avg_likes_per_post": 1267450,
+            "avg_comments_per_post": 3214,
+            "avg_views_per_post": 0,
+            "engagement_rate": 2.8927
+        },
+        {
+            "timestp": "2021-12-11",
+            "followers": 43926272,
+            "avg_likes_per_post": 1267450,
+            "avg_comments_per_post": 3214,
+            "avg_views_per_post": 0,
+            "engagement_rate": 2.8927
+        },
+        {
+            "timestp": "2021-12-10",
+            "followers": 43797513,
+            "avg_likes_per_post": 1286736,
+            "avg_comments_per_post": 3285,
+            "avg_views_per_post": 0,
+            "engagement_rate": 2.9454
+        },
+        {
+            "timestp": "2021-12-09",
+            "followers": 43797513,
+            "avg_likes_per_post": 1286736,
+            "avg_comments_per_post": 3285,
+            "avg_views_per_post": 0,
+            "engagement_rate": 2.9454
+        },
+        {
+            "timestp": "2021-12-08",
+            "followers": 43797513,
+            "avg_likes_per_post": 1286736,
+            "avg_comments_per_post": 3285,
+            "avg_views_per_post": 0,
+            "engagement_rate": 2.9454
+        }
+    ]
+}

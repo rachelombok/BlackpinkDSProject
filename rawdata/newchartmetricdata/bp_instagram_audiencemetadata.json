@@ -1,0 +1,454 @@
+{
+    "obj": [
+        {
+            "timestp": "2022-01-22",
+            "code2": "ID",
+            "rank": 1,
+            "weights": 0.275278,
+            "name": "Indonesia",
+            "lat": -0.789275,
+            "lng": 113.921327
+        },
+        {
+            "timestp": "2022-01-22",
+            "code2": "TH",
+            "rank": 2,
+            "weights": 0.086304,
+            "name": "Thailand",
+            "lat": 15.870032,
+            "lng": 100.992541
+        },
+        {
+            "timestp": "2022-01-22",
+            "code2": "PH",
+            "rank": 3,
+            "weights": 0.067212,
+            "name": "Philippines",
+            "lat": 12.879721,
+            "lng": 121.774017
+        },
+        {
+            "timestp": "2022-01-22",
+            "code2": "MY",
+            "rank": 4,
+            "weights": 0.063121,
+            "name": "Malaysia",
+            "lat": 4.210484,
+            "lng": 101.975766
+        },
+        {
+            "timestp": "2022-01-22",
+            "code2": "US",
+            "rank": 5,
+            "weights": 0.056887,
+            "name": "United States",
+            "lat": 37.09024,
+            "lng": -95.712891
+        },
+        {
+            "timestp": "2022-01-22",
+            "code2": "BR",
+            "rank": 6,
+            "weights": 0.040522,
+            "name": "Brazil",
+            "lat": -14.235004,
+            "lng": -51.92528
+        },
+        {
+            "timestp": "2022-01-22",
+            "code2": "JP",
+            "rank": 7,
+            "weights": 0.036821,
+            "name": "Japan",
+            "lat": 36.204824,
+            "lng": 138.252924
+        },
+        {
+            "timestp": "2022-01-22",
+            "code2": "VN",
+            "rank": 8,
+            "weights": 0.032145,
+            "name": "Vietnam",
+            "lat": 14.058324,
+            "lng": 108.277199
+        },
+        {
+            "timestp": "2022-01-22",
+            "code2": "IN",
+            "rank": 9,
+            "weights": 0.022404,
+            "name": "India",
+            "lat": 20.593684,
+            "lng": 78.96288
+        },
+        {
+            "timestp": "2022-01-22",
+            "code2": "KR",
+            "rank": 10,
+            "weights": 0.022209,
+            "name": "South Korea",
+            "lat": 35.907757,
+            "lng": 127.766922
+        },
+        {
+            "timestp": "2022-01-22",
+            "code2": "RU",
+            "rank": 11,
+            "weights": 0.021625,
+            "name": "Russian Federation",
+            "lat": 61.52401,
+            "lng": 105.318756
+        },
+        {
+            "timestp": "2022-01-22",
+            "code2": "MX",
+            "rank": 12,
+            "weights": 0.017728,
+            "name": "Mexico",
+            "lat": 23.634501,
+            "lng": -102.552784
+        },
+        {
+            "timestp": "2022-01-22",
+            "code2": "TW",
+            "rank": 13,
+            "weights": 0.014611,
+            "name": "Taiwan",
+            "lat": 23.69781,
+            "lng": 120.960515
+        },
+        {
+            "timestp": "2022-01-22",
+            "code2": "KZ",
+            "rank": 14,
+            "weights": 0.014417,
+            "name": "Kazakstan",
+            "lat": 48.019573,
+            "lng": 66.923684
+        },
+        {
+            "timestp": "2022-01-22",
+            "code2": "AR",
+            "rank": 15,
+            "weights": 0.014027,
+            "name": "Argentina",
+            "lat": -38.416097,
+            "lng": -63.616672
+        },
+        {
+            "timestp": "2022-01-22",
+            "code2": "FR",
+            "rank": 16,
+            "weights": 0.013442,
+            "name": "France",
+            "lat": 46.227638,
+            "lng": 2.213749
+        },
+        {
+            "timestp": "2022-01-22",
+            "code2": "CL",
+            "rank": 17,
+            "weights": 0.013053,
+            "name": "Chile",
+            "lat": -35.675147,
+            "lng": -71.542969
+        },
+        {
+            "timestp": "2022-01-22",
+            "code2": "ES",
+            "rank": 18,
+            "weights": 0.011299,
+            "name": "Spain",
+            "lat": 40.463667,
+            "lng": -3.74922
+        },
+        {
+            "timestp": "2022-01-22",
+            "code2": "DE",
+            "rank": 19,
+            "weights": 0.01052,
+            "name": "Germany",
+            "lat": 51.165691,
+            "lng": 10.451526
+        },
+        {
+            "timestp": "2022-01-22",
+            "code2": "IT",
+            "rank": 20,
+            "weights": 0.01052,
+            "name": "Italy",
+            "lat": 41.87194,
+            "lng": 12.56738
+        },
+        {
+            "timestp": "2022-01-19",
+            "code2": "ID",
+            "rank": 1,
+            "weights": 0.275224,
+            "name": "Indonesia",
+            "lat": -0.789275,
+            "lng": 113.921327
+        },
+        {
+            "timestp": "2022-01-19",
+            "code2": "TH",
+            "rank": 2,
+            "weights": 0.086093,
+            "name": "Thailand",
+            "lat": 15.870032,
+            "lng": 100.992541
+        },
+        {
+            "timestp": "2022-01-19",
+            "code2": "PH",
+            "rank": 3,
+            "weights": 0.067199,
+            "name": "Philippines",
+            "lat": 12.879721,
+            "lng": 121.774017
+        },
+        {
+            "timestp": "2022-01-19",
+            "code2": "MY",
+            "rank": 4,
+            "weights": 0.063109,
+            "name": "Malaysia",
+            "lat": 4.210484,
+            "lng": 101.975766
+        },
+        {
+            "timestp": "2022-01-19",
+            "code2": "US",
+            "rank": 5,
+            "weights": 0.056876,
+            "name": "United States",
+            "lat": 37.09024,
+            "lng": -95.712891
+        },
+        {
+            "timestp": "2022-01-19",
+            "code2": "BR",
+            "rank": 6,
+            "weights": 0.040514,
+            "name": "Brazil",
+            "lat": -14.235004,
+            "lng": -51.92528
+        },
+        {
+            "timestp": "2022-01-19",
+            "code2": "JP",
+            "rank": 7,
+            "weights": 0.036813,
+            "name": "Japan",
+            "lat": 36.204824,
+            "lng": 138.252924
+        },
+        {
+            "timestp": "2022-01-19",
+            "code2": "VN",
+            "rank": 8,
+            "weights": 0.032139,
+            "name": "Vietnam",
+            "lat": 14.058324,
+            "lng": 108.277199
+        },
+        {
+            "timestp": "2022-01-19",
+            "code2": "IN",
+            "rank": 9,
+            "weights": 0.0224,
+            "name": "India",
+            "lat": 20.593684,
+            "lng": 78.96288
+        },
+        {
+            "timestp": "2022-01-19",
+            "code2": "KR",
+            "rank": 10,
+            "weights": 0.022205,
+            "name": "South Korea",
+            "lat": 35.907757,
+            "lng": 127.766922
+        },
+        {
+            "timestp": "2022-01-19",
+            "code2": "RU",
+            "rank": 11,
+            "weights": 0.021621,
+            "name": "Russian Federation",
+            "lat": 61.52401,
+            "lng": 105.318756
+        },
+        {
+            "timestp": "2022-01-19",
+            "code2": "MX",
+            "rank": 12,
+            "weights": 0.017725,
+            "name": "Mexico",
+            "lat": 23.634501,
+            "lng": -102.552784
+        },
+        {
+            "timestp": "2022-01-19",
+            "code2": "TW",
+            "rank": 13,
+            "weights": 0.014608,
+            "name": "Taiwan",
+            "lat": 23.69781,
+            "lng": 120.960515
+        },
+        {
+            "timestp": "2022-01-19",
+            "code2": "KZ",
+            "rank": 14,
+            "weights": 0.014414,
+            "name": "Kazakstan",
+            "lat": 48.019573,
+            "lng": 66.923684
+        },
+        {
+            "timestp": "2022-01-19",
+            "code2": "AR",
+            "rank": 15,
+            "weights": 0.014024,
+            "name": "Argentina",
+            "lat": -38.416097,
+            "lng": -63.616672
+        },
+        {
+            "timestp": "2022-01-19",
+            "code2": "FR",
+            "rank": 16,
+            "weights": 0.01344,
+            "name": "France",
+            "lat": 46.227638,
+            "lng": 2.213749
+        },
+        {
+            "timestp": "2022-01-19",
+            "code2": "CL",
+            "rank": 17,
+            "weights": 0.01305,
+            "name": "Chile",
+            "lat": -35.675147,
+            "lng": -71.542969
+        },
+        {
+            "timestp": "2022-01-19",
+            "code2": "ES",
+            "rank": 18,
+            "weights": 0.011297,
+            "name": "Spain",
+            "lat": 40.463667,
+            "lng": -3.74922
+        },
+        {
+            "timestp": "2022-01-19",
+            "code2": "DE",
+            "rank": 19,
+            "weights": 0.010518,
+            "name": "Germany",
+            "lat": 51.165691,
+            "lng": 10.451526
+        },
+        {
+            "timestp": "2022-01-19",
+            "code2": "IT",
+            "rank": 20,
+            "weights": 0.010518,
+            "name": "Italy",
+            "lat": 41.87194,
+            "lng": 12.56738
+        },
+        {
+            "timestp": "2022-01-17",
+            "code2": "ID",
+            "rank": 1,
+            "weights": 0.275439,
+            "name": "Indonesia",
+            "lat": -0.789275,
+            "lng": 113.921327
+        },
+        {
+            "timestp": "2022-01-17",
+            "code2": "TH",
+            "rank": 2,
+            "weights": 0.08616,
+            "name": "Thailand",
+            "lat": 15.870032,
+            "lng": 100.992541
+        },
+        {
+            "timestp": "2022-01-17",
+            "code2": "PH",
+            "rank": 3,
+            "weights": 0.067251,
+            "name": "Philippines",
+            "lat": 12.879721,
+            "lng": 121.774017
+        },
+        {
+            "timestp": "2022-01-17",
+            "code2": "MY",
+            "rank": 4,
+            "weights": 0.063158,
+            "name": "Malaysia",
+            "lat": 4.210484,
+            "lng": 101.975766
+        },
+        {
+            "timestp": "2022-01-17",
+            "code2": "US",
+            "rank": 5,
+            "weights": 0.05692,
+            "name": "United States",
+            "lat": 37.09024,
+            "lng": -95.712891
+        },
+        {
+            "timestp": "2022-01-17",
+            "code2": "BR",
+            "rank": 6,
+            "weights": 0.040156,
+            "name": "Brazil",
+            "lat": -14.235004,
+            "lng": -51.92528
+        },
+        {
+            "timestp": "2022-01-17",
+            "code2": "JP",
+            "rank": 7,
+            "weights": 0.036842,
+            "name": "Japan",
+            "lat": 36.204824,
+            "lng": 138.252924
+        },
+        {
+            "timestp": "2022-01-17",
+            "code2": "VN",
+            "rank": 8,
+            "weights": 0.032164,
+            "name": "Vietnam",
+            "lat": 14.058324,
+            "lng": 108.277199
+        },
+        {
+            "timestp": "2022-01-17",
+            "code2": "IN",
+            "rank": 9,
+            "weights": 0.022417,
+            "name": "India",
+            "lat": 20.593684,
+            "lng": 78.96288
+        },
+        {
+            "timestp": "2022-01-17",
+            "code2": "KR",
+            "rank": 10,
+            "weights": 0.022222,
+            "name": "South Korea",
+            "lat": 35.907757,
+            "lng": 127.766922
+        }
+    ]
+}
