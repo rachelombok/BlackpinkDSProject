@@ -10,6 +10,7 @@ sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager) #spo
 
 ktltracks = sp.album_tracks('spotify:album:7viSsSKXrDa95CtUcuc1Iv')
 sutracks = sp.album_tracks('spotify:album:2zwfcNqJe7IT1RwgVyv1ug')
+albumtracks = sp.album_tracks('spotify:album:71O60S5gIJSIAhdnrDIh3N')
 discography = {}
 
 ktlsongs = ktltracks['items']
@@ -22,10 +23,18 @@ while sutracks['next']:
 	sutracks = sp.next(sutracks)
 	susongs.extend(sutracks['items'])
 
+albumsongs = albumtracks['items']
+while albumtracks['next']:
+	albumtracks = sp.next(albumtracks)
+	albumsongs.extend(albumtracks['items'])
+
 for song in ktlsongs:
 	discography[song['name']] = song
 	
 for song in susongs:
+	discography[song['name']] = song
+
+for song in albumsongs:
 	discography[song['name']] = song
 
 kamu = sp.track('spotify:track:7jr3iPu4O4bTCVwLMbdU2i')
@@ -47,11 +56,11 @@ discography[srcndy['name']] = srcndy
 discography[hylt['name']] = hylt
 
 
-with open('blackpink_track_data.csv', mode='w') as employee_file:
+with open('blackpink_songs_data.csv', mode='w') as employee_file:
 	spotify_writer = csv.writer(employee_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
 	# Write csv headers
-	spotify_writer.writerow(['Index', 'Artist Name', 'Track Name','Danceability','Energy','Key','Loudness','Speechiness','Accousticness','Instrumentalness','Liveness','Valence','Tempo','Duration MS', 'Release Date'])
+	spotify_writer.writerow(['index', 'artist_name', 'track_name','danceability','energy','key','loudness','speechiness','accousticness','instrumentalness','liveness','valence','tempo','duration_ms', 'release_date'])
 
 	# index
 	i = 0

@@ -4,7 +4,7 @@ import csv
 sp_follower_data = {}
 sp_listener_data = {}
 sp_ftl_data = {}
-with open('rawdata/chartmetricdata/bp_spotifydata_history.json') as bp_info:
+with open('rawdata/newchartmetricdata/bp_spotifydata_history.json') as bp_info:
     data = json.load(bp_info)
     for k,v in data['obj'].items():
         if k == 'followers':
@@ -37,6 +37,7 @@ with open('blackpink_spotifydata_combinedtwo.csv', mode='w') as newfile:
     sp_combined_writer.writerow(['date', 'followers', 'followerdifference', 'monthlylisteners', 'monthlylistenersdifference'])
 
     for date_f, data_f in sp_follower_data.items():
+        
         if (date_f in sp_listener_data):
             sp_combined_writer.writerow([date_f, data_f[0], data_f[1], sp_listener_data[date_f][0], sp_listener_data[date_f][1]])
         else:

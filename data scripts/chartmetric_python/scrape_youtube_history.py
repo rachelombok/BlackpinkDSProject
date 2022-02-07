@@ -5,7 +5,7 @@ yt_subscriber_history = {}
 yt_views_history = {}
 yt_videos_history = {}
 
-with open('rawdata/chartmetricdata/bp_youtubechanneldata_history.json') as bp_info:
+with open('rawdata/newchartmetricdata/bp_youtubechanneldata_history.json') as bp_info:
     data = json.load(bp_info)
     for k,v in data['obj'].items():
         if k == 'subscribers':
@@ -29,7 +29,7 @@ with open('rawdata/chartmetricdata/bp_youtubechanneldata_history.json') as bp_in
 with open('blackpink_youtube_subscriber_history.csv', mode='w') as employee_file:
     sub_writer = csv.writer(employee_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
-    sub_writer.writerow(['Date', 'Subscribers', 'Difference'])
+    sub_writer.writerow(['date', 'subscribers', 'difference'])
 
     for time, subs in yt_subscriber_history.items():
         sub_writer.writerow([time, subs[0], subs[1]])
@@ -37,7 +37,7 @@ with open('blackpink_youtube_subscriber_history.csv', mode='w') as employee_file
 with open('blackpink_youtube_views_history.csv', mode='w') as emp_file:
     views_writer = csv.writer(emp_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
-    views_writer.writerow(['Date', 'Views', 'Difference'])
+    views_writer.writerow(['date', 'views', 'difference'])
 
     for time, views in yt_views_history.items():
         views_writer.writerow([time, views[0], views[1]])
@@ -45,7 +45,7 @@ with open('blackpink_youtube_views_history.csv', mode='w') as emp_file:
 with open('blackpink_youtube_videos_history.csv', mode='w') as e_file:
     vid_writer = csv.writer(e_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
-    vid_writer.writerow(['Date', 'Videos', 'Difference'])
+    vid_writer.writerow(['date', 'videos', 'difference'])
 
     for time, vid in yt_videos_history.items():
         vid_writer.writerow([time, vid[0], vid[1]])
