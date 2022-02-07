@@ -9,7 +9,7 @@ yt_avg_likes = {}
 yt_avg_comments = {}
 yt_notable_subscribers = {}
 
-with open('rawdata/chartmetricdata/bp_youtube_audience_data.json') as bp_info:
+with open('rawdata/newchartmetricdata/bp_youtube_audience_data.json') as bp_info:
     data = json.load(bp_info)
     for k,v in data['obj'].items():
         if k == 'top_countries':
@@ -42,7 +42,7 @@ with open('rawdata/chartmetricdata/bp_youtube_audience_data.json') as bp_info:
 with open('bpyt_top_countries_data.csv', mode='w') as bpyt_top_countries_file:
     bpyt_top_countries_writer = csv.writer(bpyt_top_countries_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
-    bpyt_top_countries_writer.writerow(['Country Code', 'Country', 'Subscribers', 'Percent'])
+    bpyt_top_countries_writer.writerow(['country_code', 'country', 'subscribers', 'percent'])
 
     for code, data in yt_countries_dct.items():
         bpyt_top_countries_writer.writerow([code, data[0], data[1], data[2]])
@@ -51,7 +51,7 @@ with open('bpyt_top_countries_data.csv', mode='w') as bpyt_top_countries_file:
 with open('bpyt_gender_per_age_data.csv', mode='w') as bpyt_gender_per_age_file:
     bpyt_gender_per_age_writer = csv.writer(bpyt_gender_per_age_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
-    bpyt_gender_per_age_writer.writerow(['Age Range', 'Male Percent', 'Female Percent'])
+    bpyt_gender_per_age_writer.writerow(['agerange', 'male_percent', 'female_percent'])
 
     for code, data in yt_gender_per_age.items():
         bpyt_gender_per_age_writer.writerow([code, data[0], data[1]])
@@ -59,7 +59,7 @@ with open('bpyt_gender_per_age_data.csv', mode='w') as bpyt_gender_per_age_file:
 with open('bpyt_gender_data.csv', mode='w') as bpyt_gender_file:
     bpyt_gender_writer = csv.writer(bpyt_gender_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
-    bpyt_gender_writer.writerow(['Gender', 'Percent'])
+    bpyt_gender_writer.writerow(['gender', 'percent'])
 
     for gender, data in yt_genders.items():
         bpyt_gender_writer.writerow([gender, data[0]])
@@ -67,7 +67,7 @@ with open('bpyt_gender_data.csv', mode='w') as bpyt_gender_file:
 with open('bpyt_numbers_data.csv', mode='w') as bpyt_numbers_file:
     bpyt_numbers_writer = csv.writer(bpyt_numbers_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
-    bpyt_numbers_writer.writerow(['Code', 'Number'])
+    bpyt_numbers_writer.writerow(['code', 'number'])
 
     for code, data in yt_subscribers.items():
         bpyt_numbers_writer.writerow([code, data])
@@ -83,7 +83,7 @@ with open('bpyt_numbers_data.csv', mode='w') as bpyt_numbers_file:
 with open('bpyt_notable_followers_data.csv', mode='w') as bpyt_notable_followers_file:
     bpyt_notable_followers_writer = csv.writer(bpyt_notable_followers_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
-    bpyt_notable_followers_writer.writerow(['Full Name', 'Picture', 'Subscribers', 'Link', 'is_verified'])
+    bpyt_notable_followers_writer.writerow(['fullname', 'picture', 'subscribers', 'link', 'is_verified'])
 
     for username, data in yt_notable_subscribers.items():
         bpyt_notable_followers_writer.writerow([username, data[0], data[1], data[2], data[3]])

@@ -11,7 +11,7 @@ ig_avg_likes = {}
 ig_avg_comments = {}
 ig_notable_followers = {}
 
-with open('rawdata/chartmetricdata/bp_instagram_audience_data.json') as bp_info:
+with open('rawdata/newchartmetricdata/bp_instagram_audience_data.json') as bp_info:
     data = json.load(bp_info)
     for k,v in data['obj'].items():
         if k == 'top_countries':
